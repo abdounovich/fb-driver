@@ -21,6 +21,6 @@ $botman = BotManFactory::create($config);
 $botman = resolve('botman');
 
 $botman->hears('Hi', function ($bot) {
-    $bot->reply('Hello!');
+    $bot->reply('Hellaaaadsdsdaao!');
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
